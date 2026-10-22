@@ -1,0 +1,3 @@
+# Output from Backup/Restore-ADUserAttributes.ps1 (contains PII)
+ad-snapshot-*
+ad-restore-report-*.csv
