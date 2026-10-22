@@ -1,13 +1,13 @@
 # powershell-scripts
 
-PowerShell scripts for Active Directory and Windows administration. Each script has comment-based help (`Get-Help .\<script>.ps1 -Full`) and a write-up on the blog.
+PowerShell scripts for Active Directory and Windows administration. Each script has comment-based help (`Get-Help .\<script>.ps1 -Full`) and a more detailed write-up on my website. Links below.
 
 ## Scripts
 
 | Script | Description | Write-up |
 |---|---|---|
-| [Backup-ADUserAttributes.ps1](Backup-ADUserAttributes.ps1) | Read-only point-in-time snapshot of AD user attributes, CN, OU and enabled state, keyed on `objectGUID`. | [Blog post](https://stevelaporte.net/scripts/backup-ad-attributes/) |
-| [Restore-ADUserAttributes.ps1](Restore-ADUserAttributes.ps1) | Diffs current AD users against a snapshot and optionally restores attributes, CN, OU and enabled state. Report-only unless `-Apply` is used. | [Blog post](https://stevelaporte.net/scripts/restore-ad-attributes/) |
+| [Backup-ADUserAttributes.ps1](Backup-ADUserAttributes.ps1) | Read-only point-in-time snapshot of AD user attributes, CN, OU and enabled state, keyed on `objectGUID`. | [Link](https://stevelaporte.net/scripts/backup-ad-attributes/) |
+| [Restore-ADUserAttributes.ps1](Restore-ADUserAttributes.ps1) | Diffs current AD users against a snapshot and optionally restores attributes, CN, OU and enabled state. Report-only unless `-Apply` is used. | [Link](https://stevelaporte.net/scripts/restore-ad-attributes/) |
 
 ## Requirements
 
